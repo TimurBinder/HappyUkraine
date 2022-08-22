@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">   
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="content">
+            <div class="wrapper">
+                <div class="logo">
+                    <div class="logo__icon">
+                        <img src="img/logo-up.png" alt="" class="logo-up">
+                        <img src="img/logo-down.png" alt="" class="logo-down">
+                    </div>
+
+                    <div class="logo__text">
+                        <div class="logo__text__title">
+                            Happy Ukraine
+                        </div>
+                        <div class="logo__text__intro">
+                            Charitable Foundation
+                        </div>
+                    </div>
+                </div>
+                <a href="pay.html" class="btn submit">Donate</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="first-screen slide1" id="slider">
+        <div class="content">
+            <div class="main-cta">
+                <div class="main-cta__offer">
+                    <h1 class="main-cta__offer__title" id="slider-title">
+                        <span class="semi-bold">Help people in Ukraine</span> during the war!
+                    </h1>
+                    <p class="main-cta__offer__intro" id="slider-intro">"Glory To Ukraine! Glory to the heroes"</p>
+                </div>
+
+                <figure class="main-cta__submit-block">
+                    <a href="pay.html" class="btn submit">Donate</a>
+                    <figcaption class="main-cta__submit-block__caption">Уour help will save people</figcaption>
+                </figure>
+
+                <div class="main-cta__slider">
+                    <div class="circle" onclick="changeIndCircle(0)"></div>
+                    <div class="circle" onclick="changeIndCircle(1)"></div>
+                    <div class="circle" onclick="changeIndCircle(2)"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="numbers">
+        <div class="content">
+            <div class="wrapper">
+                <figure class="numbers-block">
+                    <div class="number">13.456</div>
+                    <figcaption class="number__caption">people helped</figcaption>
+                </figure>
+
+                <div class="line"></div>
+
+                <figure class="numbers-block">
+                    <div class="number">278.900€</div>
+                    <figcaption class="number__caption">donated
+                    </figcaption>
+                </figure>
+
+                <div class="line"></div>
+
+                <figure class="numbers-block">
+                    <div class="number">17.318</div>
+                    <figcaption class="number__caption">saved people</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="situation">
+        <div class="content">
+            <p class="description-block">Situation in Ukraine now</p>
+
+            <div class="wrapper">
+                <img src="img/table/table1_1.png" alt="" class="situation__table__img">
+                <img src="img/table/table1_2.png" alt="" class="situation__table__img">
+                <img src="img/table/table1_3.png"" alt="" class="situation__table__img">
+                <img src="img/table/table1_4.png"" alt="" class="situation__table__img">
+
+                <img src="img/table/table2_1.png"" alt="" class="situation__table__img">
+                <img src="img/table/table2_2.png"" alt="" class="situation__table__img">
+                <img src="img/table/table2_3.png" alt="" class="situation__table__img">
+                <img src="img/table/table2_4.png" alt="" class="situation__table__img">
+
+                <img src="img/table/table3_1.png" alt="" class="situation__table__img">
+                <img src="img/table/table3_2.png" alt="" class="situation__table__img">
+                <img src="img/table/table3_3.png" alt="" class="situation__table__img">
+                <img src="img/table/table3_4.png" alt="" class="situation__table__img">
+            
+                <img src="img/table/table4_1.png" alt="" class="situation__table__img">
+                <img src="img/table/table4_2.png" alt="" class="situation__table__img">
+                <img src="img/table/table4_3.png" alt="" class="situation__table__img">
+                <img src="img/table/table4_4.png" alt="" class="situation__table__img">
+
+                <img src="img/table/table5_1.png" alt="" class="situation__table__img">
+                <img src="img/table/table5_2.png" alt="" class="situation__table__img">
+                <img src="img/table/table5_3.png" alt="" class="situation__table__img">
+                <img src="img/table/table5_4.png" alt="" class="situation__table__img">
+           </div>
+        </div>
+    </section>
+    
+    <section class="help">
+        <div class="content">
+            <div class="wrapper">
+                <h2 class="call-for-help">
+                    <span class="semi-bold">Help save people</span> in Ukraine
+                </h2>
+                    <a href="pay.html" class="btn submit">Donate</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="send">
+        <div class="content">
+            <p class="description-block">We send food, water, medicines</p>
+            <img src="img/water.png" alt="" class="water">
+        </div>
+    </section>
+
+    <section class="mission">
+        <div class="content">
+            <div class="mission__wrapper">
+                <p class="description-block">Our mission</p>
+
+                <h3 class="mission__title">
+                    <span class="semi-bold">Help people in Ukraine during the war.</span>
+                    Feed and drink those in need. 
+                    Deliver medical supplies to the wounded and sick.
+                </h3>
+                    <a href="pay.html" class="btn submit">Donate</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <p class="copyright">Copyright © 2011-2022 Happy Ukraine All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
